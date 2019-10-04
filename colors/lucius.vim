@@ -303,31 +303,31 @@ let g:colors_name="lucius"
 " ----------------------------------------------------------------------------
 
 if s:style == "light"
-    " hi NonText      guifg=#afafd7
-    " hi SpecialKey   guifg=#afd7af
+    hi NonText      guifg=#afafd7
+    hi SpecialKey   guifg=#afd7af
     hi Comment      guifg=#808080
-    " hi Conceal      guifg=#808080
+    hi Conceal      guifg=#808080
     hi Constant     guifg=#af5f00
-    " hi Directory    guifg=#00875f
-    " hi Identifier   guifg=#008700
-    " hi PreProc      guifg=#008787
-    " hi Special      guifg=#870087
-    " hi Statement    guifg=#005faf
-    " hi Title        guifg=#005faf
-    " hi Type         guifg=#005f87
+    hi Directory    guifg=#00875f
+    hi Identifier   guifg=#008700
+    hi PreProc      guifg=#008787
+    hi Special      guifg=#870087
+    hi Statement    guifg=#005faf
+    hi Title        guifg=#005faf
+    hi Type         guifg=#005f87
 else
-    " hi NonText      guifg=#5f5f87
-    " hi SpecialKey   guifg=#5f875f
+    hi NonText      guifg=#5f5f87
+    hi SpecialKey   guifg=#5f875f
     hi Comment      guifg=#808080
-    " hi Conceal      guifg=#808080
+    hi Conceal      guifg=#808080
     hi Constant     guifg=#d7d7af
-    " hi Directory    guifg=#afd7af
-    " hi Identifier   guifg=#afd787
-    " hi PreProc      guifg=#87d7af
-    " hi Special      guifg=#d7afd7
-    " hi Statement    guifg=#87d7ff
-    " hi Title        guifg=#5fafd7
-    " hi Type         guifg=#87d7d7
+    hi Directory    guifg=#afd7af
+    hi Identifier   guifg=#afd787
+    hi PreProc      guifg=#87d7af
+    hi Special      guifg=#d7afd7
+    hi Statement    guifg=#87d7ff
+    hi Title        guifg=#5fafd7
+    hi Type         guifg=#87d7d7
 endif
 
 
